@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Quote</title>
 </head>
 <body>
     <div class="items-center justify-between h-24 border-b border-solid px-4 py-3 desktop:ml-5">
@@ -46,17 +46,15 @@
             </svg>
           </div>
         </div>
-        <div class="mt-4">
-          <ul class="flex space-x-5">
-            <li class="text-primary">Quotes</li>
-            <li>Surveys</li>
-            <li>Sales</li>
-            <li>Rejected</li>
-          </ul>
+        <div class="mt-4 space-x-2">
+          <button class="text-primary border-b-2 border-primary">Quotes</button>
+          <button>Surveys</button>
+          <button>Sales</button>
+          <button>Rejected</button>
         </div>
     </div>
 
-    <div class="grid grid-cols-1 tab:grid-cols-2 desktop:grid-cols-3 bg-gray_50 desktop:pt-4">
+    <div class="p-2 grid grid-cols-1 tab:grid-cols-2 desktop:grid-cols-3 bg-gray_50 desktop:pt-4">
       <!-------------------------- Card 1 -------------------------------------->
         <div class="m-2 flex flex-col items-start p-2 shadow-md rounded-lg bg-white">
             <h4 class="font-sans font-medium text-sm text-medium_gray">Comprehensive</h4>
@@ -71,9 +69,12 @@
               <p class="text-sm leading-4">Quote Name: <b>Bruce Kumar</b> </p>
               <div class="flex flex-row">
                 <p class="text-sm leading-4">Quote ID: <b>69583033522580454522</b></p>
+                <button>
                   <svg class="ml-3" width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.66668 0.666016H1.66668C0.933344 0.666016 0.333344 1.26602 0.333344 1.99935V11.3327H1.66668V1.99935H9.66668V0.666016ZM11.6667 3.33268H4.33334C3.60001 3.33268 3.00001 3.93268 3.00001 4.66602V13.9993C3.00001 14.7327 3.60001 15.3327 4.33334 15.3327H11.6667C12.4 15.3327 13 14.7327 13 13.9993V4.66602C13 3.93268 12.4 3.33268 11.6667 3.33268ZM11.6667 13.9993H4.33334V4.66602H11.6667V13.9993Z" fill="#E5397B"/>
-                    </svg>
+                  </svg>
+                </button>
+                  
               </div>
             </div>
             
@@ -83,16 +84,19 @@
                 <p class="font-bold">Rp. 4,413,800</p>
               </div>
               <!------------ date  ----------->
-              <div class="flex flex-col items-start ml-5">
-                <p class="text-grey text-sm">Created Date</p>
-                <p class="text-sm">31-02-2023</p>
-              </div>
-              <div class="opacity-[0.3] border-solid border-grey rotate-90"></div>
-              <div class="flex flex-col items-start">
+              <div class="grid grid-cols-2 divide-x">
+                <div class="flex flex-col items-start ml-5">
+                  <p class="text-grey text-sm">Created Date</p>
+                  <p class="text-sm">31-02-2023</p>
+                </div>
+              <div class="flex flex-col items-start pl-1">
                 <p class="text-grey text-sm">Policy Start Date</p>
                 <p class="text-sm">31-02-2023</p>
               </div>
             </div>
+          </div>
+          <hr class="w-full border-light mt-2" />
+          
             <div class="flex flex-row items-start gap-2 p-0 mt-4 ml-3">
               <button class="w-[93.39px] h-10 border bg-primary text-white font-semibold rounded cursor-pointer">Buy</button>
               <button class="w-[93.39px] h-10 ml-2 border border-primary text-primary font-semibold rounded cursor-pointer">Edit</button>
@@ -115,9 +119,11 @@
               <p class="text-sm leading-4">Quote Name: <b>Bruce Kumar</b> </p>
               <div class="flex flex-row">
                 <p class="text-sm leading-4">Quote ID: <b>69583033522580454522</b></p>
+                <button>
                   <svg class="ml-3" width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.66668 0.666016H1.66668C0.933344 0.666016 0.333344 1.26602 0.333344 1.99935V11.3327H1.66668V1.99935H9.66668V0.666016ZM11.6667 3.33268H4.33334C3.60001 3.33268 3.00001 3.93268 3.00001 4.66602V13.9993C3.00001 14.7327 3.60001 15.3327 4.33334 15.3327H11.6667C12.4 15.3327 13 14.7327 13 13.9993V4.66602C13 3.93268 12.4 3.33268 11.6667 3.33268ZM11.6667 13.9993H4.33334V4.66602H11.6667V13.9993Z" fill="#E5397B"/>
-                    </svg>
+                  </svg>
+                </button>
               </div>
             </div>
             
@@ -127,16 +133,18 @@
                 <p class="font-bold">Rp. 4,413,800</p>
               </div>
               <!------------ date  ----------->
-              <div class="flex flex-col items-start ml-5">
-                <p class="text-grey text-sm">Created Date</p>
-                <p class="text-sm">31-02-2023</p>
-              </div>
-              <div class="opacity-[0.3] border-solid border-grey rotate-90"></div>
-              <div class="flex flex-col items-start">
+              <div class="grid grid-cols-2 divide-x">
+                <div class="flex flex-col items-start ml-5">
+                  <p class="text-grey text-sm">Created Date</p>
+                  <p class="text-sm">31-02-2023</p>
+                </div>
+              <div class="flex flex-col items-start pl-1">
                 <p class="text-grey text-sm">Policy Start Date</p>
                 <p class="text-sm">31-02-2023</p>
               </div>
             </div>
+          </div>
+          <hr class="w-full border-light mt-2" />
 
             <div class="flex flex-row items-start gap-2 p-0 mt-4 ml-3">
               <button class="w-[93.39px] h-10 border bg-primary text-white font-semibold rounded cursor-pointer">Buy</button>
@@ -159,9 +167,11 @@
               <p class="text-sm leading-4">Quote Name: <b>Bruce Kumar</b> </p>
               <div class="flex flex-row">
                 <p class="text-sm leading-4">Quote ID: <b>69583033522580454522</b></p>
+                <button>
                   <svg class="ml-3" width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.66668 0.666016H1.66668C0.933344 0.666016 0.333344 1.26602 0.333344 1.99935V11.3327H1.66668V1.99935H9.66668V0.666016ZM11.6667 3.33268H4.33334C3.60001 3.33268 3.00001 3.93268 3.00001 4.66602V13.9993C3.00001 14.7327 3.60001 15.3327 4.33334 15.3327H11.6667C12.4 15.3327 13 14.7327 13 13.9993V4.66602C13 3.93268 12.4 3.33268 11.6667 3.33268ZM11.6667 13.9993H4.33334V4.66602H11.6667V13.9993Z" fill="#E5397B"/>
-                    </svg>
+                  </svg>
+                </button>
               </div>
             </div>
             
@@ -171,63 +181,25 @@
                 <p class="font-bold">Rp. 4,413,800</p>
               </div>
               <!------------ date  ----------->
-              <div class="flex flex-col items-start ml-5">
-                <p class="text-grey text-sm">Created Date</p>
-                <p class="text-sm">31-02-2023</p>
-              </div>
-              <div class="opacity-[0.3] border-solid border-grey rotate-90"></div>
-              <div class="flex flex-col items-start">
-                <p class="text-grey text-sm">Policy Start Date</p>
-                <p class="text-sm">31-02-2023</p>
+              <div class="grid grid-cols-2 divide-x">
+                  <div class="flex flex-col items-start ml-5">
+                    <p class="text-grey text-sm">Created Date</p>
+                    <p class="text-sm">31-02-2023</p>
+                  </div>
+                <div class="flex flex-col items-start pl-1">
+                  <p class="text-grey text-sm">Policy Start Date</p>
+                  <p class="text-sm">31-02-2023</p>
+                </div>
               </div>
             </div>
+            <hr class="w-full border-light mt-2" />
             <div class="flex flex-row items-start gap-2 p-0 mt-4 ml-3">
               <button class="w-[93.39px] h-10 border bg-primary text-white font-semibold rounded cursor-pointer">Buy</button>
               <button class="w-[93.39px] h-10 ml-2 border border-primary text-primary font-semibold rounded cursor-pointer">Edit</button>
               <button class="w-[93.39px] h-10 ml-2 border border-primary text-primary font-semibold rounded cursor-pointer">Download</button>
             </div>
         </div>
-
-        <!------------------------------ BACK SIDE  ------------------------------------------>
-        <div class="flex flex-col items-start gap-4 absolute mt-[50rem] desktop:mt-80 ml-4">
-            <div>
-                <div class="flex">
-                    <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.33344 0L5.27344 0.94L2.2201 4L5.27344 7.06L4.33344 8L0.333437 4L4.33344 0Z" fill="#E5397B"/>
-                    </svg>
-                    <p class="-mt-1 text-xs ml-2 text-primary">Back</p>
-                </div>
-                <div class="flex space-x-2">
-                    <h1 class="font-semibold text-2xl">Policy Details</h1>
-                    <button class="w-14 h- border bg-green-500 text-white font-semibold rounded cursor-pointer">Paid</button>
-                </div>
-                <div class="flex flex-col items-start gap-1 mt-3 space-y-1">
-                    <p class="text-sm leading-4">Policy Holder Name: <b>Bruce Kumar</b> </p>
-                    <div class="flex flex-row">
-                      <p class="text-sm leading-4">Policy Number: <b>69583033522580454522</b></p>
-                        <svg class="ml-3" width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9.66668 0.666016H1.66668C0.933344 0.666016 0.333344 1.26602 0.333344 1.99935V11.3327H1.66668V1.99935H9.66668V0.666016ZM11.6667 3.33268H4.33334C3.60001 3.33268 3.00001 3.93268 3.00001 4.66602V13.9993C3.00001 14.7327 3.60001 15.3327 4.33334 15.3327H11.6667C12.4 15.3327 13 14.7327 13 13.9993V4.66602C13 3.93268 12.4 3.33268 11.6667 3.33268ZM11.6667 13.9993H4.33334V4.66602H11.6667V13.9993Z" fill="#E5397B"/>
-                          </svg>
-                    </div>
-                  </div>
-                  <div class="flex flex-row items-center p-0 gap-1 mt-2">
-                    <div class="flex flex-col items-start p-0">
-                      <p class="text-grey text-sm">Total Premium</p>
-                      <p class="font-bold">Rp. 4,413,800</p>
-                    </div>
-                    <!------------ date  ----------->
-                    <div class="flex flex-col items-start ml-5">
-                      <p class="text-grey text-sm">Created Date</p>
-                      <p class="text-sm">31-02-2023</p>
-                    </div>
-                    <div class="opacity-[0.3] border-solid border-grey rotate-90"></div>
-                    <div class="flex flex-col items-start">
-                      <p class="text-grey text-sm">Policy Start Date</p>
-                      <p class="text-sm">31-02-2023</p>
-                    </div>
-                  </div>
-                  <button class="w-[335px] h-12 border border-primary text-primary font-semibold rounded mt-5 cursor-pointer desktop:w-[47rem] md:w-[40rem] md:ml-20 sm:w-[40rem]">Download</button>
-            </div>
-        </div>
-</body>
+    </div>
+       
+  </body>
 </html>

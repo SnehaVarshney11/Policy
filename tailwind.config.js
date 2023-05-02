@@ -23,6 +23,7 @@ module.exports = {
         "primary-text": "#121212",
         "info-badge": "#D12D17",
         'gray-card': "#F3F3F8",
+        'light': "#F4F4F4",
       },
 
       fontFamily: {
@@ -35,7 +36,7 @@ module.exports = {
       },
 
       screens: {
-        'desktop': '1280px',
+        'desktop': '1075px',
         'tab': '721px',
         'big': '1145px',
       },

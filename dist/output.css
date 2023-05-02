@@ -522,10 +522,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .m-2 {
   margin: 0.5rem;
 }
@@ -560,22 +556,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-80 {
-  margin-top: 20rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .flex {
@@ -645,14 +625,6 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
